@@ -56,7 +56,7 @@ with open(file_to_save, "w") as txt_file:
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
         f"-------------------------\n")
-    print(election_results, end="")
+    print(election_results, end="") # By default, the "end" parameter will print a newline, \n
     
     # After printing the final vote count to the terminal save the final vote count to the text file.
     txt_file.write(election_results)
